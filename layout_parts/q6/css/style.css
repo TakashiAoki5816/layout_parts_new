@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6_box1_inner {
+  text-align: center;
+}
 
+.q6_text1 {
+  display: inline-block;
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+
+.q6_text2 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
 /* 回答はここに書いてね */
