@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q7_width {
+  width: 225px;
+}
+/* Q7-1の記述 */
+.q7_float {
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
 
+.q7_float:first-child {
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* Q7-1の記述 */
+
+/* Q7-2の記述 */
+.q7_table {
+  display: table;
+  table-layout: fixed;
+  padding: 50px;
+}
+
+.q7_table_cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.q7_table_cell:first-child {
+  padding-left: 0;
+}
+/* Q7-2の記述 */
+
+/* Q7-3の記述 */
 /* 回答はここに書いてね */
