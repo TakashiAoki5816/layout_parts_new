@@ -26,7 +26,6 @@
 .q7_table {
   display: table;
   table-layout: fixed;
-  padding: 50px;
 }
 
 .q7_table_cell {
@@ -37,6 +36,10 @@
 
 .q7_table_cell:first-child {
   padding-left: 0;
+}
+
+.q7_table_width {
+  width: 225px;
 }
 /* Q7-2の記述 */
 
@@ -66,7 +69,6 @@
 /* Q7-4の記述 */
 
 /* Q7-5の記述 */
-
 .q7_box1 {
   display: inline-block;
   width: 300px;
