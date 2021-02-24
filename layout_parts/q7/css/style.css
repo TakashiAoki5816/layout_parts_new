@@ -26,7 +26,6 @@
 .q7_table {
   display: table;
   table-layout: fixed;
-  padding: 50px;
 }
 
 .q7_table_cell {
@@ -40,5 +39,21 @@
 }
 /* Q7-2の記述 */
 
+/* Q7-3の記述 */
+.q7_inner {
+  font-size: 0;
+}
+
+.q7_inline_block {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.q7_inline_block:first-child {
+  margin-left: 0;
+}
 /* Q7-3の記述 */
 /* 回答はここに書いてね */
