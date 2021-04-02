@@ -9,12 +9,11 @@
 .q4_content {
   display: table;
   width: 100%;
+  margin-top: 20px;
 }
 
-.q4_content2 {
-  display: table;
-  width: 100%;
-  margin-top: 20px;
+.q4_content:first-child {
+  margin-top: 0;
 }
 
 .q4_content_cell {
@@ -23,29 +22,29 @@
   padding: 20px 0;
 }
 
-.q4_box1 {
+.q4_pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.q4_box2 {
+.q4_purple {
   background-color: #e0abd9;
 }
 
-.q4_box3 {
+.q4_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.q4_box4 {
+.q4_yellow {
   background-color: #e5d32e;
 }
 
-.q4_box5 {
+.q4_red {
   background-color: #ec8f9a;
 }
 
-.q4_box6 {
+.q4_green {
   width: 500px;
   background-color: #8fdcad;
 }
