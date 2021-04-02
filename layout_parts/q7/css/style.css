@@ -63,24 +63,27 @@
 /* Q7-4の記述 */
 .q7_flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-end;
 }
 /* Q7-4の記述 */
 
 /* Q7-5の記述 */
-.q7_box1 {
+.q7__box.is-stable {
   display: inline-block;
   width: 300px;
-  font-size: 16px;
 }
 
-.q7_box2 {
+.q7__box.is-flexible {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
   margin-left: -300px;
   padding-left: 350px;
+  vertical-align: top;
+}
+
+.q7__box__text {
   font-size: 16px;
 }
 /* Q7-5の記述 */
