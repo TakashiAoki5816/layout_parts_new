@@ -8,15 +8,15 @@
   padding: 10px 0;
 }
 
-.q6__box.is-textalign {
+.is-textalign {
   text-align: center;
 }
 
-.q6__box.is-textalign .q6__box__text {
+.d-inline-block {
   display: inline-block;
 }
 
-.q6__box.is-margin .q6__box__text {
+.is-margin .q6__box__text {
   margin: 0 auto;
   text-align: center;
 }
@@ -48,7 +48,7 @@
   padding: 10px;
 }
 
-.q6_position_fixed {
+.q6_position_relative {
   position: relative;
 }
 
@@ -59,10 +59,6 @@
   right: 0;
   bottom: 0;
   margin: auto;
-}
-
-.q6_position_flexible {
-  position: relative;
 }
 
 .q6_textbox_flexible {
