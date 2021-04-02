@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .q3_table {
   width: 100%;
-  table-layout: auto;
+  table-layout: fixed;
 }
 
 .t_row {
