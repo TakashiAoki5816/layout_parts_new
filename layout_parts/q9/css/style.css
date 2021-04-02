@@ -2,11 +2,12 @@
 
 /* 回答はここに書いてね */
 .q9_textbox {
+  position: relative;
   width: 500px;
+  padding: 20px;
+  margin: 0 auto;
   border: 5px solid #222;
   border-radius: 30px;
-  margin: 0 auto;
-  position: relative;
 }
 
 .q9_textbox:before {
@@ -34,6 +35,5 @@
 .q9_text {
   font-size: 16px;
   line-height: 16px;
-  padding: 20px;
 }
 /* 回答はここに書いてね */
