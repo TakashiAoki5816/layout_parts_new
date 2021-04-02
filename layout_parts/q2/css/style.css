@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q2 {
+.q2-container {
   width: 940px;
   margin: 0 auto;
   background-color: #eff3f4;
