@@ -12,12 +12,12 @@
   word-break: break-all;
 }
 
-.img_1 {
+.left_img {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.img_2 {
+.right_img {
   float: right;
   margin: 0 0 10px 20px;
 }
