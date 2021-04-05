@@ -52,7 +52,8 @@
 /* Q7-2の記述 */
 
 /* Q7-3の記述 */
-.q7_fontsize {
+/* display: inline-blockでできる隙間をなくすため */
+.q7_fontsize_0 {
   font-size: 0;
 }
 
