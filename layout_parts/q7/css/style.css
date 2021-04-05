@@ -1,10 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7_width {
+
+/* 共通クラス */
+/* Q7__boxの共通のwidth */
+.q7_box_width {
   width: 225px;
+}
+
+/* box-sizingをborder-boxに設定 */
+.q7_box_sizing {
   box-sizing: border-box;
 }
+
 /* Q7-1の記述 */
 .q7_float {
   float: left;
@@ -48,14 +56,14 @@
   font-size: 0;
 }
 
-.q7_inline_block {
+.q7_d_inline_block {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
   margin-left: 50px;
 }
 
-.q7_inline_block:first-child {
+.q7_d_inline_block:first-child {
   margin-left: 0;
 }
 /* Q7-3の記述 */
@@ -77,7 +85,6 @@
 .q7__box.is-flexible {
   display: inline-block;
   width: 100%;
-  box-sizing: border-box;
   margin-left: -300px;
   padding-left: 350px;
   vertical-align: top;
